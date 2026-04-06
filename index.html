@@ -56,7 +56,7 @@
         }
 
         section {
-            padding: 20px 20px;
+            padding: 50px 20px;
             max-width: 900px;
             margin: auto;
         }
@@ -100,7 +100,10 @@
         }
 
         footer {
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
             padding: 25px;
             background: #222;
             color: white;
@@ -109,6 +112,13 @@
         footer img.qr-code {
             width: 120px;
             margin-top: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 10px;
+        }
+
+        footer img.qr-code:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         }
     </style>
 </head>
@@ -119,6 +129,36 @@
         <h1>Affordable RC Model Aircraft Made in Bangladesh</h1>
         <p>Low-cost, locally manufactured RC planes for education and hobbyists</p>
     </header>
+
+    <section>
+        <h2>Potential National Applications</h2>
+        <p>The following examples illustrate how this low-cost aerial platform can be adapted for real-world national
+            use cases:</p>
+    </section>
+
+    <section class="image-section">
+        <h3>Agriculture Monitoring</h3>
+        <p>Monitoring large crop fields, observing irrigation patterns, and assessing crop conditions.</p>
+        <img src="./images/Agriculture-Monitoring.png" alt="Agriculture Monitoring by Drone">
+    </section>
+
+    <section class="image-section">
+        <h3>Crop Spraying Concept (Future Scope)</h3>
+        <p>Conceptual use for precision agriculture such as pesticide or fertilizer spraying (future development).</p>
+        <img src="./images/crop-Spraying-Concept.webp" alt="Crop Spraying Drone">
+    </section>
+
+    <section class="image-section">
+        <h3>Disaster & Flood Monitoring</h3>
+        <p>Rapid aerial overview of flood-affected or disaster-prone areas for quick response.</p>
+        <img src="./images/Disaster-Flood-Monitoring.jpg" alt="Flood Monitoring">
+    </section>
+
+    <section class="image-section">
+        <h3>Large Area & Rural Monitoring</h3>
+        <p>Monitoring fish farms, rural land, and large open areas efficiently at low cost.</p>
+        <img src="./images/Large-Area-Rural-Monitoring.jpg" alt="Rural Monitoring">
+    </section>
 
     <section>
         <h2>Introduction</h2>
@@ -133,8 +173,7 @@
         <ul>
             <li>To showcase a fully functional RC model aircraft</li>
             <li>To demonstrate cost-effective local production capability</li>
-            <li>To explore opportunities in education, hobby, toy markets, and national applications such as agriculture
-                and monitoring</li>
+            <li>To explore opportunities in education, hobby, and toy markets</li>
         </ul>
     </section>
 
@@ -196,12 +235,9 @@
 
     <section>
         <h2>Future Scope</h2>
-        <P>With proper support and investment, this project can be expanded into:</P>
         <ul>
             <li>DIY RC aircraft kits for students and beginners</li>
             <li>Ready-to-fly models for hobbyists</li>
-            <li>Affordable aerial monitoring systems to support agriculture, disaster response, and rural area
-                management</li>
             <li>STEM-based training workshops in schools and universities</li>
             <li>Small-scale local manufacturing setup</li>
             <li>Potential export to similar emerging markets</li>
@@ -212,8 +248,6 @@
         <h2>Expected Impact</h2>
         <ul>
             <li>Promote STEM education and hands-on learning</li>
-            <li>Support agriculture, disaster response, and large-area monitoring through affordable aerial technology
-            </li>
             <li>Encourage local innovation and technical skills development</li>
             <li>Reduce dependency on imported hobby products</li>
             <li>Create opportunities for entrepreneurship and small-scale manufacturing</li>
@@ -223,87 +257,19 @@
 
     <section>
         <h2>Support Required</h2>
-        <p>To scale this initiative, the following support is required:</p>
         <ul>
             <li>Initial funding for prototyping and production</li>
             <li>Access to innovation labs or incubation centers</li>
-            <li>Collaboration with educational institutions, research bodies, and government agencies for development
-                and deployment</li>
+            <li>Collaboration with educational institutions and training programs</li>
         </ul>
     </section>
-
-    <section>
-        <h2>Additional Note: Extended Applications for National Use</h2>
-        <p>Following the initial proposal, the RC aircraft platform can be further developed beyond education and hobby
-            use into a low-cost aerial monitoring and data collection system for various national applications.</p>
-    </section>
-
-    <section>
-        <h2>1. Agriculture Monitoring and Support</h2>
-        <p>The platform can be equipped with lightweight camera modules to support:</p>
-        <ul>
-            <li>Monitoring large agricultural fields</li>
-            <li>Identifying crop health conditions visually</li>
-            <li>Observing irrigation patterns and water distribution</li>
-            <li>Detecting flood or storm damage in rural areas</li>
-        </ul>
-        <p>Compared to traditional drones, fixed-wing aircraft can cover a larger area in a single flight, making them
-            suitable for field-level observation at a lower operational cost.</p>
-    </section>
-
-    <section>
-        <h2>2. Disaster Management and Response</h2>
-        <p>The system can be used in emergency situations such as:</p>
-        <ul>
-            <li>Flood-affected area monitoring</li>
-            <li>Cyclone damage assessment</li>
-            <li>Rapid aerial overview of inaccessible regions</li>
-        </ul>
-        <p>Due to its lightweight and portable nature, the aircraft can be deployed quickly for real-time or recorded
-            visual feedback.</p>
-    </section>
-
-    <section>
-        <h2>3. Land and Area Monitoring</h2>
-        <p>Potential applications include:</p>
-        <ul>
-            <li>Monitoring fish farms, agricultural land, and large rural properties</li>
-            <li>Observing remote or hard-to-access areas</li>
-            <li>Supporting basic surveillance and inspection tasks</li>
-        </ul>
-        <p>This provides a cost-effective alternative for large-area observation where high-end drone systems may not be
-            feasible.</p>
-    </section>
-
-    <section>
-        <h2>4. Technical Capability Overview</h2>
-        <ul>
-            <li>Payload Capacity: Approximately 300–800 grams (suitable for camera, GPS, and basic sensors)</li>
-            <li>Flight Coverage: Capable of covering larger areas compared to multirotor drones</li>
-            <li>Cost Advantage: Significantly lower than imported drone systems</li>
-            <li>Scalability: Design can be optimized for higher payload and longer endurance</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>5. Future Development Direction</h2>
-        <p>With proper support, the platform can be further enhanced by:</p>
-        <ul>
-            <li>Integrating camera-based monitoring systems</li>
-            <li>Adding GPS-based tracking and navigation</li>
-            <li>Developing specialized versions for agriculture and field monitoring</li>
-            <li>Creating locally manufacturable aerial monitoring kits</li>
-        </ul>
-    </section>
-
 
     <section>
         <h2>Conclusion</h2>
         <p>This project can evolve from a low-cost RC aircraft into an affordable aerial monitoring platform suitable
-            for agriculture, disaster response, and large-area observation.
-
-            Its key advantage lies in low cost, local manufacturability, and adaptability, making it a practical
-            solution for scalable deployment in Bangladesh.</p>
+            for agriculture, disaster response, and large-area observation. Its key advantage lies in low cost, local
+            manufacturability, and adaptability, making it a practical solution for scalable deployment in Bangladesh.
+        </p>
     </section>
 
     <section>
@@ -315,7 +281,7 @@
     <footer>
         <p>© 2026 RC Aircraft Project | Bangladesh</p>
         <p>Scan to view full proposal:</p>
-        <img src="./images/qr-code.png" alt="QR Code to Proposal" class="qr-code">
+        <img src="images/qr-code.png" alt="QR Code to Proposal" class="qr-code">
     </footer>
 
 </body>
